@@ -13,7 +13,6 @@ The project implements the following AWS architecture:
 - **Amazon S3**: Static website hosting and file storage
 - **AWS CloudFront**: Content Delivery Network (CDN) for improved performance
 - **AWS IAM**: Identity and Access Management for security policies
-- **Custom Domain** (optional): Route 53 for DNS management
 
 ## ✅ Prerequisites
 
@@ -38,7 +37,7 @@ Before starting this project, ensure you have:
    - Go to bucket properties
    - Enable static website hosting
    - Set index document (e.g., `index.html`)
-   - Set error document (e.g., `error.html`)
+   - Set error document (e.g., `index.html`)
 
 3. **Set Bucket Policy**
    - Configure public read access
@@ -140,15 +139,9 @@ As per project specifications, include screenshots of:
 
 ## 🌐 Website URLs
 
-- **S3 Static Website Endpoint**: `http://[bucket-name].s3-website-[region].amazonaws.com`
-- **CloudFront Distribution URL**: `https://[distribution-id].cloudfront.net`
+- **S3 Static Website Endpoint**: `[http://[bucket-name].s3-website-[region].amazonaws.com](http://static-website-1603a.s3-website-us-east-1.amazonaws.com)`
+- **CloudFront Distribution URL**: `[d1bcbn41ded6ts.cloudfront.net](https://d1bcbn41ded6ts.cloudfront.net/)`
 
-## 🔒 Security Considerations
-
-- **Bucket Policies**: Implement least privilege access
-- **CloudFront Security**: Enable HTTPS and security headers
-- **Monitoring**: Set up CloudWatch for usage monitoring
-- **Cost Management**: Monitor S3 and CloudFront costs
 
 ## 🧹 Cleanup Instructions
 
@@ -200,10 +193,3 @@ Feel free to contribute to this project by:
 - Optimizing performance
 - Sharing best practices
 
-## 📄 License
-
-This project is open source and available under the MIT License.
-
----
-
-**Project Submission Note**: This project meets all requirements specified in the project rubric including S3 configuration, CloudFront setup, proper security implementation, and comprehensive documentation with screenshots.
