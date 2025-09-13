@@ -137,11 +137,6 @@ As per project specifications, include screenshots of:
 6. Final website accessibility test
 7. Performance metrics (optional)
 
-## 🌐 Website URLs
-
-- **S3 Static Website Endpoint**: `[http://[bucket-name].s3-website-[region].amazonaws.com](http://static-website-1603a.s3-website-us-east-1.amazonaws.com)`
-- **CloudFront Distribution URL**: `[d1bcbn41ded6ts.cloudfront.net](https://d1bcbn41ded6ts.cloudfront.net/)`
-
 
 ## 🌐 Website URLs
 - **S3 Static Website Endpoint**: [http://static-website-1603a.s3-website-us-east-1.amazonaws.com](http://static-website-1603a.s3-website-us-east-1.amazonaws.com)
